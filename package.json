@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Alchemy Demo App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test"
   },
   "author": "Kristijan Federer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^2.2.0"
+  }
 }
