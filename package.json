@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "Alchemy Demo App",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "test"
   },
   "author": "Kristijan Federer",
   "license": "ISC",
   "dependencies": {
-    "alchemy-sdk": "^2.2.0"
+    "alchemy-sdk": "^2.2.0",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "ethers": "^5.7.2",
     "hardhat": "^2.12.2"
   }
 }
