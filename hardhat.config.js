@@ -2,7 +2,7 @@
  * @type import('hardhat/config').HardhatUserConfig
  */
 require("dotenv").config();
-require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-ethers");
 
 const { ALCHEMY_API_KEY, METAMASK_PRIVATE_KEY } = process.env;
 
